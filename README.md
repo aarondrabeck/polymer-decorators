@@ -56,8 +56,10 @@ The Polymer Decorators are available in two forms:
   TypeScript compiler setting. Use the `--experimentalDecorators` flag, or
   update your `tsconfig.json`:
   ```js
-  "compilerOptions": {
-    "experimentalDecorators": true
+  {
+    "compilerOptions": {
+      "experimentalDecorators": true
+    }
   }
   ```
 
@@ -89,8 +91,10 @@ The Polymer Decorators are available in two forms:
   TypeScript compiler setting. Use the `--experimentalDecorators` flag, or
   update your `tsconfig.json`:
   ```js
-  "compilerOptions": {
-    "experimentalDecorators": true
+  {
+    "compilerOptions": {
+      "experimentalDecorators": true
+    }
   }
   ```
 
@@ -146,8 +150,10 @@ To enable Metadata Reflection:
   TypeScript compiler setting. Use the `--emitDecoratorMetadata` flag, or update your
   `tsconfig.json`:
   ```js
-  "compilerOptions": {
-    "emitDecoratorMetadata": true
+  {
+    "compilerOptions": {
+      "emitDecoratorMetadata": true
+    }
   }
   ```
 
