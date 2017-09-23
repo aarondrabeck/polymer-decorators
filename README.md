@@ -51,6 +51,16 @@ The Polymer Decorators are available in two forms:
   }
   ```
 
+- Enable the
+  [`experimentalDecorators`](https://www.typescriptlang.org/docs/handbook/decorators.html#metadata)
+  TypeScript compiler setting. Use the `--experimentalDecorators` flag, or
+  update your `tsconfig.json`:
+  ```js
+  "compilerOptions": {
+    "experimentalDecorators": true
+  }
+  ```
+
 - Define a custom element:
   ```ts
   @Polymer.decorators.customElement('my-element')
@@ -72,6 +82,16 @@ The Polymer Decorators are available in two forms:
   repository).
   ```sh
   yarn add --flat @polymer/decorators
+  ```
+
+- Enable the
+  [`experimentalDecorators`](https://www.typescriptlang.org/docs/handbook/decorators.html#metadata)
+  TypeScript compiler setting. Use the `--experimentalDecorators` flag, or
+  update your `tsconfig.json`:
+  ```js
+  "compilerOptions": {
+    "experimentalDecorators": true
+  }
   ```
 
 - Import the decorator functions and define a custom element:
